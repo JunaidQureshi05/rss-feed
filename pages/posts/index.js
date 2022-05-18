@@ -19,7 +19,9 @@ const Posts = () => {
           <div key={idx}>
             <h3>{post.title}</h3>
             <Link href="#">
-              <a href="">see post</a>
+              <a className="link" href="">
+                see post
+              </a>
             </Link>
           </div>
         ))}
