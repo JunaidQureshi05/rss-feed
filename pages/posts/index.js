@@ -26,6 +26,13 @@ const Posts = () => {
           </div>
         ))}
       </div>
+      <div>
+        <Link href="#">
+          <a href="" className="link">
+            breaking news post
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };
