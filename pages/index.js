@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div>
-        <h1>Sample Post</h1>
-      </div>
+      <Link href="posts">
+        <a href="">See latest post</a>
+      </Link>
     </div>
   );
 }
