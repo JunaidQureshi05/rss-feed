@@ -15,8 +15,8 @@ const Posts = () => {
     <div>
       <h1>Latest posts</h1>
       <div>
-        {posts.map((post) => (
-          <div>
+        {posts.map((post, idx) => (
+          <div key={idx}>
             <h3>{post.title}</h3>
             <Link href="#">
               <a href="">see post</a>
