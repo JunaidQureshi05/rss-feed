@@ -34,7 +34,7 @@ const Posts = () => {
         </Link>
       </div>
       <div>
-        <a class="link" href="">
+        <a className="link" href="">
           This is updates by me after making rss feed
         </a>
       </div>
